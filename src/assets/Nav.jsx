@@ -33,7 +33,9 @@ function Nav() {
 
                 </ul>
                 </li>
-                <button type="button" className="btn btn-outline-danger ms-4">Proceed Pay</button>
+                <button type="button" className="btn btn-outline-danger ms-4" onClick={()=>{
+                    alert("Your Order Confirmed!!!")
+                }}>Proceed Pay</button>
             </ul>
             
             <form className="d-flex" role="search">
